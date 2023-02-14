@@ -5,6 +5,7 @@
   <br>
   <br>
   <span>User Name: </span>
-  <input [(ngModel)] = "userName">
+  <input [(ngModel)] = "userName" (input)="onUserInput($event)">
+  <span class="error-output"> {{nameError}}</span>
 </div>
 

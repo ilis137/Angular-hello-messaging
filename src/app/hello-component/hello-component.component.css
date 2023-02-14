@@ -14,3 +14,10 @@ img {
 span{
   font-size: medium;
 }
+
+.error-output {
+  margin-left: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: red;
+}
