@@ -1,11 +1,11 @@
 <div>
-  <h1>{{customMessage}}</h1>
+  <h1>{{customMessage }}</h1>
   <img [src]="imgUrl"
   alt="The bridgeLabz Logo: a bridge to Employment through lab works." (click)="handleClick($event)">
   <br>
   <br>
-  <span>User Name: </span>
-  <input [(ngModel)] = "userName" (input)="onUserInput($event)">
+  <span class="label">User Name: </span>
+  <input [(ngModel)] = "userName" (input)="onUserInput($event)" >
   <span class="error-output"> {{nameError}}</span>
 </div>
 
